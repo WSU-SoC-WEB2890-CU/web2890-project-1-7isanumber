@@ -1,18 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Project Starter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index,follow" />
-    <meta name="description" content="Project 1" />
 
-    <link rel="stylesheet" href="./stylesheets/main.scss" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Project 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Project 1" />
 
-  <body>
-    <!-- Your HTML goes here -->
-    <h1 class="display-2 text-center my-5 py-5 mx-auto w-75">
+  <link rel="stylesheet" href="./stylesheets/main.scss" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light px-3">
+    <img class="navbar-brand" src="images/logo.svg" width="200" alt="cardeal logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+      aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#How">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#FAQ">FAQs</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+
+    <section class="p-5 text-center bg-dark text-white"
+      style="background: url('images/areli-tenorio-rsqKCPSTNe8-unsplash.jpg') center/cover no-repeat;">
+      <div class="container py-5">
+        <div>
+          <h1 class="display-3 fw-bold">We buy "any" car.</h1>
+          <p class="lead">Get Your Free Online Valuation Now!</p>
+        </div>
+        <div>
+          <form class="bg-light rounded p-3">
+            <div class="mb-3">
+              <label for="vin" class="form-label text-dark">VIN:</label>
+              <input type="text" class="form-control" id="vin" placeholder="Enter VIN">
+            </div>
+            <div class="mb-3">
+              <label for="year" class="form-label text-dark">Year:</label>
+              <input type="text" class="form-control" id="year" placeholder="Select Year">
+            </div>
+            <div class="mb-3">
+              <label for="make" class="form-label text-dark">Make:</label>
+              <input type="text" class="form-control" id="make" placeholder="Select Make">
+            </div>
+            <div class="mb-3">
+              <label for="model" class="form-label text-dark">Model:</label>
+              <input type="text" class="form-control" id="vin" placeholder="Select Model">
+            </div>
+            <button type="submit" class="btn btn-primary">Get an Offer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="How" class="mx-3">
+      <h2 class="display-2 text-center">How It Works</h2>
+      <p>
+        The process of selling your car with Cardeal is easy and straightforward. Our employees will keep you informed
+        so you will understand what happens next.
+      </p>
+      <ul class="list-unstyled text-center">
+        <li class="mt-4">
+          <i class="bi bi-1-circle fs-1 text-danger"></i>
+          <br>
+          Fill out a form that provides accurate information about your car (i.e., VIN, year, make, model,
+          mileage, condition of car, accidents
+        </li>
+        <li class="mt-4">
+          <i class="bi bi-2-circle fs-1 text-danger"></i>
+          <br>
+          Get an instant offer on your car that is good for 7 days.
+        </li>
+        <li class="mt-4">
+          <i class="bi bi-3-circle fs-1 text-danger"></i>
+          <br>
+          Provide access to car. Deliver car to closest cardeal location or have us come get it.
+        </li>
+        <li class="mt-4">
+          <i class="bi bi-4-circle fs-1 text-danger"></i>
+          <br>
+          Provide title proving your ownership of the vehicle.
+        </li>
+        <li class="mt-4">
+          <i class="bi bi-5-circle fs-1 text-danger"></i>
+          <br>
+          Cardeal will inspect your car to verify its condition.
+        </li>
+        <li class="mt-4">
+          <i class="bi bi-6-circle fs-1 text-danger"></i>
+          <br>
+          If everything checks out, you can decide if you want to accept the offer. You can go with cash or
+          apply the money to a trade in.
+        </li>
+      </ul>
+    </section>
+
+    <section class="mx-3">
+      <h2 class="display-2 text-center">The Advantages of Selling Your Car to Cardeal section</h2>
+      <p>
+        If you're like most people, you don't look forward to dealing with a pushy car salesperson. Cardeal offers a
+        better way for you to sell or trade in your. See the following reasons people choose Cardeal.
+      </p>
+      <ul>
+        <li>Our offers are very competitive; you'll get more money for your car than a standard dealer trade-in.</li>
+        <li>
+          We are happy to take off your hands "less-than-perfect" cars that have body damage, mechanical problems, or
+          excess wear and tear.
+        </li>
+        <li>We'll buy your car and you aren't required to buy one from us.</li>
+        <li>
+          Avoid getting ripped off by scammers and swindlers. We make the process of selling your car fast, easy and
+          safe.
+        </li>
+        <li>
+          Cardeal employees are dedicated and professional. This has earned us an A+ BBB rating plus thousands of
+          reviews from satisfied customers.
+        </li>
+        <li>make and model driven ond American roads.</li>
+        <li>
+          We have locations in all 50 states making it easy for you to deliver your car or have us come to you to pick
+          up your car.
+        </li>
+        <li>
+          Cardeal cares about people as much as cars. We have donated over a million meals to Feeding America and Meals
+          on Wheels.
+        </li>
+      </ul>
+    </section>
+
+    <section id="Testimonials">
+      <div class="mx-3">
+        <h2 class="display-2 text-center">Testimonials</h2>
+        <p>Don't just take our word for it. See what our customers have said.</p>
+      </div>
+
+      <div id="carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/chris-lynch-8sLefK2KvxI-unsplash.jpg" class="d-block w-100" alt="Dude Chilling in Car" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <q>
+                Honest business. They gave clear explanation every step of their process, even allowing you to be there
+                during inspection of your vehicle. Safest way to sell a car I have ever experienced.
+              </q>
+              <br>B. Drake, Billings MT
+              <br>4 stars, March 2020
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/maks_d-o8ynkXoGLCw-unsplash.jpg" class="d-block w-100" alt="Dude Sitting on Car" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <q>
+                My experience at Cardeal went very well. The manager was very professional, kind, and completely honest
+                in
+                making the offer for my vehicle. I would highly recommend Cardeal for anyone selling their vehicle.
+              </q>
+              <br>M. Hubbard, Phoenix AZ
+              <br>4 stars, May 2021
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/crosby-hinze-lVNgx2ztXDs-unsplash.jpg" class="d-block w-100" alt="Woman Leaning on Car" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <q>
+                WOW! Above and beyond service provided by Cardeal. They provided myself and my wife exceptional service
+                and a
+                reasonable price for my 2004 Jeep Cherokee. When we are ready to sell another car Cardeal will be our
+                first
+                option. Thank you Cardeal.
+              </q>
+              <br>T. Hogan, Alexandria VA
+              <br>5 stars, August 2021
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/maxim-mushnikov-dWkN5AvQkd0-unsplash.jpg" class="d-block w-100" alt="Another Dude Sitting on Car" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <q>
+                Very pleased. In all honesty I had my doubts it would be this easy to sell my car to anyone let alone
+                Cardeal
+                or any other online service. But they are on the up and up. I would recommend this site to anyone who
+                wishes
+                to sell their car quickly. Thank you Cardeal!
+              </q>
+              <br>H. Furlano, Atlanta GA
+              <br>5 stars, October 2020
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dannavan-fulton-pvLiurzfyyc-unsplash.jpg" class="d-block w-100" alt="Woman Driving Car" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <q>
+                They were very prompt and when they gave me a quote they stood behind it. Communication throughout the
+                whole
+                process was awesome. They picked up my car at my home which was convenient for me since I have three
+                young
+                kids. My overall experience was great.
+              </q>
+              <br>A. Moore, Denver CO
+              <br>4 stars, May 2021
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
+  <!-- <h1 class="display-2 text-center my-5 py-5 mx-auto w-75">
       <span>
         WEB 2890:&nbsp;
         <i class="bi bi-filetype-html text-primary"></i>/ <i class="bi bi-filetype-css text-danger"></i>/
@@ -25,8 +327,9 @@
         Project 1: The <span class="bg-dark text-light px-5 fw-bold">CarDeal</span> project
       </span>
       <a href="_contents.html" class="link-primary">Link to the Contents file</a>
-    </h1>
+    </h1> -->
 
-    <script type="module" src="./javascripts/main.js"></script>
-  </body>
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+
 </html>
