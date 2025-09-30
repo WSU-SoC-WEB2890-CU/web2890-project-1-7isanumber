@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+$orange: #E09B47;
+$blue: #54798B;
+$light-blue: #3DABE0;
 
+$primary: $orange;
+$secondary: $light-blue;
+$light: #FEFEFE;
+$dark: #333;
+
+$headings-font-family: "Zalando Sans Expanded", sans-serif;
+$font-family-sans-serif: "Roboto", sans-serif;
 
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
